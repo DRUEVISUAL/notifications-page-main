@@ -124,6 +124,7 @@ body {
   align-items: flex-start;
   justify-content: flex-start;
   padding: 1rem;
+  position: relative;
 }
 
 .unread {
@@ -193,6 +194,8 @@ body {
 .picture img {
   width: 2.437rem;
   height: 2.437rem;
+  position: absolute;
+  right: 0;
 }
 
 .notification_dot {
